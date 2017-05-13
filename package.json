@@ -14,7 +14,8 @@
   "author": "Yang Wang (@luanshixia)",
   "license": "ISC",
   "dependencies": {
-    "commander": "^2.9.0"
+    "commander": "^2.9.0",
+    "open": "0.0.5"
   },
   "devDependencies": {
     "eslint": "^3.19.0",
