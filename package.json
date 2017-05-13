@@ -1,0 +1,25 @@
+{
+  "name": "myown",
+  "version": "1.0.0",
+  "description": "My own command line productivity manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js",
+    "start": "node index.js",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "commander.js"
+  ],
+  "author": "Yang Wang (@luanshixia)",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.9.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.1.3",
+    "eslint-plugin-import": "^2.2.0",
+    "mocha": "^3.3.0"
+  }
+}
